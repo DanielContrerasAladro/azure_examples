@@ -3,10 +3,10 @@
   "bindings": [
     {
       "name": "inputData",
-      "type": "queueTrigger",
+      "type": "httpTrigger",
       "direction": "in",
-      "queueName": "js-queue-items",
-      "connection": ""
+      "methods": ["get"],
+      "authLevel": "anonymous"
     }
   ]
 }
