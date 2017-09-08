@@ -7,6 +7,11 @@
       "direction": "in",
       "methods": ["get"],
       "authLevel": "anonymous"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
     }
   ]
 }
